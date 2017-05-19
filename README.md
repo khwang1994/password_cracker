@@ -12,7 +12,7 @@ Sample run: java PasswordCrack words passwd1
 
 Code Description:
 
-PasswordCrack.java
+PasswordCrack.java:
 This is the main portion of the program. It takes two
 input files from the command line (a "/etc/passwd" file and a file containing a
 dictionary). From the passwd file, the program goes line-by-line, creates a User 
@@ -28,9 +28,9 @@ calls.
 The guessPW() function determines if a guessed password is correct (using jcrypt). 
 If so, it prints the user and the password to the console.
 
-User.java
+User.java:
 Represents a user in the system. Stores their name, salt, encrypted
 password, actual password and whether or not we have "cracked" their pw.
 
-jcrypt.java 
+jcrypt.java:
 Password encryption utilizes JCrypt. This is used to check if I have successfully decrypted a password. Code is taken from http://www.vulcanware.com/java_jcrypt/jcrypt.java
