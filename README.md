@@ -3,11 +3,10 @@ Password Cracker
 Introduction:
 The program takes in a dictionary and a file analogous to a Unix /etc/passwd file. Using various password mangling techniques, the program deciphers the passwords that have been encrypted using JCrypt. It prints each password to the console once it has been cracked. 
 
-How to Compile and Run:
-To compile,
+To compile:
 javac *.java
 
-To run,
+To run:
 java PasswordCrack [dictionary] [passwd file]
 Run examples:
 java PasswordCrack words passwd1
