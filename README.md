@@ -10,7 +10,7 @@ To run:
 java PasswordCrack [dictionary] [passwd file]
 
 Code Description:
-1) PasswordCrack.java
+1) PasswordCrack.java<br>
   This is the main portion of the program. It takes two
 input files from the command line (a "/etc/passwd" file and a file containing a
 dictionary). From the passwd file, the program goes line-by-line, creates a User 
