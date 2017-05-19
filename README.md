@@ -8,9 +8,6 @@ javac *.java
 
 To run:
 java PasswordCrack [dictionary] [passwd file]
-Run examples:
-java PasswordCrack words passwd1
-java PasswordCrack words passwd2
 
 Code Description:
 1) PasswordCrack.java
